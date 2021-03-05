@@ -1,24 +1,22 @@
 # Where in the World is...
 
-![](https://i.giphy.com/13n8txR8c9UDHG.gif)
+# ...Carmen Sandiego?!?
 
-We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and world-renowned thief, Carmen Sandiego. Follow the clues, use the interweb - write down both the SQL commands /queries you used and your answers to the clues - and figure out where Carmen's headed, so we can catch her and bring her in.
+![Carmen](https://i.giphy.com/13n8txR8c9UDHG.gif)
 
-## Exercise
+## Overview
+We're going to use what we've learned already about searching with SQL commands, and apply it to chase down and capture an elusive and world-renowned thief, Carmen Sandiego. Follow the clues, use the interweb - write down both the SQL commands/queries you used and your answers to the clues - and figure out where Carmen's headed so we can catch her and bring her in. It's up to you, gumshoe!
 
-### Setup/Instructions:
-
-#### Starter Code:
-
+## Starter Code:
 * You've been given a `world.sql` file that you run to import a bunch of data into a SQL database (instructions below).
 * You've been given a `clues.sql` file that has clues for finding Carmen. Read the clues and record your SQL queries in this file.
 
-#### Getting Started:
+### Getting Started:
 
-From the command line, 
+From the command line...
 
-1. `cd` into the `starter-code` 
-2. create a new database called `carmen` and 
+1. `cd` into the `starter-code`
+2. create a new database called `carmen`
 3. populate it with the SQL found in `world.sql`
 
 ```
@@ -35,7 +33,7 @@ CREATE DATABASE carmen;
 
 **OR**
 
-**Pro Tip:** You can do this in fewer steps with these commands. _Note: this is done from the bash/zsh CLI and not the psql CLI_
+**Pro Tip:** You can do this in fewer steps with these commands. *Note: this is done from the **bash/zsh CLI** and not the psql CLI*
 
 ```bash
 createdb carmen
@@ -43,9 +41,9 @@ createdb carmen
 psql -d carmen -f /your/path/to/this/file/starter-code/world.sql
 ```
 
-Then, use the clues below to create the appropriate SQL queries to help you find Carmen and then, tell us where she's heading!!
+Then, use the clues below to create the appropriate SQL queries to help you find Carmen and then tell us where she's heading!
 
-### The Clues :mag:
+### :mag: The Clues
 
 * **Clue #1:** We recently got word that someone fitting Carmen Sandiego's description has been traveling through Southern Europe. She's most likely traveling someplace where she won't be noticed, so find the least populated country in Southern Europe, and we'll start looking for her there.
 
@@ -72,14 +70,12 @@ Then, use the clues below to create the appropriate SQL queries to help you find
   In a city of ninety-one thousand and now, eighty five.
 ```
 
-## Want to learn more!? :book:
+![Bye](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.gfycat.com%2FInnocentSeriousChipmunk-max-1mb.gif&f=1&nofb=1)
 
-There are **a lot** of resources on the web!
-
-#### If you want more on SQL, here are some places to go:
-
-* [PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/)
-* [PostgreSQL official documentation](http://www.postgresql.org/docs/)
-* [SQL JOIN](http://www.dofactory.com/sql/join)
-* [SQL Zoo](http://sqlzoo.net/) - _(SQL tutorial and practice problems)_
-* [Hacker Rank](https://www.hackerrank.com/domains/sql/select) - _(You will need an account, its free! Also a good place to practice algorithms)_
+## Resources
+- [PostgreSQL tutorial](http://www.tutorialspoint.com/postgresql/)
+- [PostgreSQL official documentation](http://www.postgresql.org/docs/)
+- [SQL JOIN](http://www.dofactory.com/sql/join)
+- [SQL Zoo](http://sqlzoo.net/) - _(SQL tutorial and practice problems)_
+- [Hacker Rank](https://www.hackerrank.com/domains/sql/select) - _(You will need an account, its free! Also a good place to practice algorithms)_
+- [Baptize Yourself in Peak 90s](https://youtu.be/dRblZgBE8gM)
