@@ -78,4 +78,3 @@ Then, use the clues below to create the appropriate SQL queries to help you find
 - [SQL JOIN](http://www.dofactory.com/sql/join)
 - [SQL Zoo](http://sqlzoo.net/) - _(SQL tutorial and practice problems)_
 - [Hacker Rank](https://www.hackerrank.com/domains/sql/select) - _(You will need an account, its free! Also a good place to practice algorithms)_
-- [Baptize Yourself in Peak 90s](https://youtu.be/dRblZgBE8gM)
