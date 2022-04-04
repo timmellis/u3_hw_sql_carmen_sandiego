@@ -79,4 +79,4 @@ Then, use the clues below to create the appropriate SQL queries to help you find
 - [SQL Zoo](http://sqlzoo.net/) - _(SQL tutorial and practice problems)_
 - [Hacker Rank](https://www.hackerrank.com/domains/sql/select) - _(You will need an account, its free! Also a good place to practice algorithms)_
 - [Baptize Yourself in Peak 90s](https://youtu.be/roiJizt8jxw)
-
+- [Musical Perfection](https://youtu.be/s1EIUP8tvbE)
